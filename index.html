@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- mi css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./imagenes/logo/logo1.jpg" type="image/x-icon">
+    <!-- Keywords -->
+    <meta name="keywords" content="sensuality, indumentaria femenina, arneses, collares, cadenas, productos">
+    <!-- Description -->
+    <meta name="description" content="Estos son algunos de nuestros productos especialmente diseñados para la mujer">
+    <title>Sensuality | Productos</title>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/3430d77979.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- encabezado -->
+    <header>
+        <!-- barra de navegación -->
+        <nav class="navbar navbar-expand-lg" style="background-color: #ffc0cb;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img width="140" height="80" src="./imagenes/logo/logo.jpg" alt="logo_sensuality">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="w-75">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html ">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Información</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Crear cuenta</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-75 d-flex justify-content-end align-items-center">
+                        <button id="ver-carrito">
+                            Ver carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="titulo-pagina">
+            <h1>Nuestros productos</h1>
+        </div>
+        <div id="contenedor-filtros-productos">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" id="buscador" type="search" placeholder="Búsqueda" aria-label="Search">
+                <button id="buscar" class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+            <input type="checkbox" class="inputFiltro" id="arneses" />
+            <label class="filtro-checkbox-label" for="arneses">Arneses</label>
+            <input type="checkbox" class="inputFiltro" id="cadenas" />
+            <label class="filtro-checkbox-label" for="arneses">Cadenas</label>
+        </div>
+        <div id="contenedor-productos"></div>
+        <div id="contenedor-carrito-de-compra" class="ocultar">
+            <div id="informacion-carrito">
+                <span id="mensaje-carrito"></span>
+            </div>
+            <div id="contenedor-tabla-carrito">
+                <table class="table table-striped" id="contenido-carrito-de-compra"></table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footers -->
+    <footer>
+        <div class="contenedor-footer-full">
+            <div class="container-body">
+                <div class="column1">
+                    <h3>Quienes somos</h3>
+                    <p> <strong>Sensuality</strong> nace en 2021, con el objetivo de sacar tu lado más sensual,
+                        complementando tus
+                        outfits con arneses y accesorios hechos a medida. Podes sumarlos tanto a tu look diario como a
+                        un momento especial.
+                        Apostamos a que cada vez más gente se anime a vestir con un accesorio único.</p>
+                </div>
+                <div class="column2">
+                    <h3>Redes Sociales</h3>
+                    <div class="rowFooter">
+                        <a id="enlace_absoluto" href="https://es-la.facebook.com/" target="blank">
+                            <img src="./imagenes/iconos/icons8-facebook-nuevo-30.png" alt="Facebook"></a>
+                        <label>Seguinos en Facebook</label>
+                    </div>
+                    <div class="rowFooter">
+                        <a id="enlace_absoluto" href="https://www.instagram.com/" target="blank">
+                            <img src="./imagenes/iconos/icons8-instagram-30.png" alt="Instagram"></a>
+                        <label>Seguinos en Instagram</label>
+                    </div>
+                    <div class="rowFooter">
+                        <a id="enlace_absoluto" href="https://twitter.com/" target="blank">
+                            <img src="./imagenes/iconos/icons8-twitter-circled-30.png" alt="Twitter"></a>
+                        <label>Seguinos en Twitter</label>
+                    </div>
+                    <div class="rowFooter">
+                        <a id="enlace_absoluto" href="https://ar.pinterest.com/" target="blank">
+                            <img src="./imagenes/iconos/icons8-pinterest-30.png" alt="Pinterest"></a>
+                        <label>Seguinos en Pinterest</label>
+                    </div>
+                </div>
+                <div class="column3">
+                    <h3>Contactos</h3>
+                    <div class="rowFooter2">
+                        <img src="./imagenes/iconos/icons8-casa-30.png" alt="Ubicación">
+                        <label>Congreso,
+                            Ciudad de Buenos Aires
+                            Av. 9 de julio 123
+                        </label>
+                    </div>
+                    <div class="rowFooter2">
+                        <img src="./imagenes/iconos/icons8-whatsapp-30.png" alt="Teléfono">
+                        <label>+54-11-123-4560
+                        </label>
+                    </div>
+                    <div class="rowFooter2">
+                        <img src="./imagenes/iconos/icons8-gmail-30.png" alt="emial">
+                        <label>Sensuality@gmail.com
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-footer">
+            <div class="footer2">
+                <div class="copyright">© 2022 Todos los derechos reservados | <a href="#"> Jesús Maciel</a></div>
+                <div class="information"><a href="#"> Información compañia</a> |<a href="#"> Terminos y condiciones</a>
+                    | <a href="#">Politica de privacidad</a></div>
+            </div>
+        </div>
+    </footer>
+    <!-- javasript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+</body>
+
+</html>

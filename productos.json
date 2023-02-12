@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nombre": "Arnes Pride",
+        "categoria": "arneses",
+        "precio": 5500,
+        "stock": 20,
+        "imgUrl": "./imagenes/productos/arnes-pride.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Arnes con cadenas",
+        "categoria": "arneses",
+        "precio": 7000,
+        "stock": 20,
+        "imgUrl": "./imagenes/productos/arnes-cadenas.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Arnes negro",
+        "categoria": "arneses",
+        "precio": 6000,
+        "stock": 20,
+        "imgUrl": "./imagenes/productos/arnes-negro.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Arnes rojo",
+        "categoria": "arneses",
+        "precio": 5500,
+        "stock": 20,
+        "imgUrl": "./imagenes/productos/arnes-rojo.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Cadenas Top",
+        "categoria": "cadenas",
+        "precio": 7000,
+        "stock": 20,
+        "imgUrl": "./imagenes/productos/arnes-top.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Arnes blanco abierto",
+        "categoria": "arneses",
+        "precio": 7000,
+        "stock": 20,
+        "imgUrl": "./imagenes/productos/arnes-blanco-abierto.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Arnes Soulmate",
+        "categoria": "arneses",
+        "precio": 9000,
+        "stock": 20,
+        "imgUrl": "./imagenes/productos/arnes-Soulmate.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Arnes blanco",
+        "categoria": "arneses",
+        "precio": 6000,
+        "stock": 20,
+        "imgUrl": "./imagenes/productos/arnes-blanco.jpg"
+    }
+]
